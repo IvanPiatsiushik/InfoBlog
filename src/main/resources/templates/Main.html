@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>InfoBlog</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--    Favicon-->
+    <link rel="icon" type="image/png" href="/static/fav.jpg"/>
+    <!--    Favicon-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="cont_div123 " id="begin" style="background-image:url('../static/backFon.png')">
+        <header>
+            <nav class="navbar  navbar-expand-lg bg-transparent  fs-2  ">
+                <div class="container-md" >
+                    <div class="navbar-brand fs-1 text-white mx-5 " href="#">InfoBlog</div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse myClassBar" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                            <li class="nav-item " >
+                                <a class="nav-link active text-white  m-2" aria-current="page" href="#knowledge" >Knowledge</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white m-2" aria-current="page" href="#hobby">Hobby</a>
+                            </li>
+<!--                            <li class="nav-item">-->
+<!--                                <a class="nav-link active text-white" aria-current="page" href="#">Why I</a>-->
+<!--                            </li>-->
+                            <li class="nav-item">
+                                <a class="nav-link active text-white m-2" aria-current="page" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <div  class="social_image" >
+                            <a href="https://www.linkedin.com/in/ivan-piatsiushyk-88b6131b7/" class="text-white" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" >
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg></a>
+                            <a href="https://github.com/IvanPiatsiushik" target="_blank" class="text-white"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg></a>
+<!--                            <a href="" class="text-white"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">-->
+<!--                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>-->
+<!--                            </svg></a>-->
+                            <a href="https://www.youtube.com/channel/UC1-pdHmQE1LiOeg_nMAdESQ" class="text-white" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                            </svg></a>
+                            <a href="#mail" class="text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="text-justify" id="knowledge">Knowledge</h1>
+            <p class="text-muted">В этом разделе вы можете увидеть в видео , какими навыками я владею! </p>
+            <div class="row gx-4 mt-5">
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe  src="https://www.youtube.com/embed/Gvoe8zjoiqQ" title="Запуск простого  java приложения на удаленном сервере." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                            </div>
+                            <h1 class="fs-5">Git</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe   src="https://www.youtube.com/embed/n5Z8N-VoH98" title="Запуск wordpress в контейнере docker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe >                            </div>
+                            <h1 class="fs-5">Wordpress</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe   src="https://www.youtube.com/embed/n5Z8N-VoH98" title="Запуск wordpress в контейнере docker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe >                            </div>
+                            <h1 class="fs-5">Docker</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe   src="https://www.youtube.com/embed/n5Z8N-VoH98" title="Запуск wordpress в контейнере docker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe >                            </div>
+                            </div>
+                            <h1 class="fs-5">SSH</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="text-justify">Technical Skills</h1>
+            <div class="row mt-5">
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-filetype-java text-success" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.521 15.175a1.321 1.321 0 0 1-.082-.466h.765a.577.577 0 0 0 .073.27.499.499 0 0 0 .454.246c.19 0 .33-.055.422-.164.092-.11.138-.265.138-.466V11.85h.79v2.725c0 .44-.118.774-.357 1.005-.236.23-.564.345-.984.345a1.59 1.59 0 0 1-.568-.094 1.144 1.144 0 0 1-.408-.266 1.139 1.139 0 0 1-.243-.39Zm3.972-.354-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H5.493Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Zm2.342 1.618h.952l1.327-3.999h-.878l-.888 3.138h-.038L8.59 11.85h-.917l1.34 3.999Zm3.087-1.028-.314 1.028h-.8l1.342-3.999h.926l1.336 3.999h-.84l-.314-1.028H12.1Zm1.178-.59-.49-1.616h-.035l-.49 1.617h1.015Z"/>
+                            </svg>
+<!--                            <h1 class="fs-5">Java</h1>-->
+                            <p class="text-muted">ООП,SOLID,SOAP</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-ubuntu text-success" viewBox="0 0 16 16">
+                                <path d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546ZM7.4 13.108a5.535 5.535 0 0 1-3.775-2.88 3.273 3.273 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.253 3.253 0 0 1-.666-1.9 5.639 5.639 0 0 1-.557-.091Zm3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546Zm3.163-3.108a7.436 7.436 0 0 0 .373-8.726 3.276 3.276 0 0 1-1.278 1.498 5.573 5.573 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693ZM2.098 3.998a3.28 3.28 0 0 1 1.897.486 5.544 5.544 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.472 7.472 0 0 0-7.051 3.745Z"/>
+                            </svg>
+<!--                            <h1 class="fs-5">Java</h1>-->
+                            <p class="text-muted">ООП,SOLID,SOAP</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-filetype-css text-success"  viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.397 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495ZM6.78 15.29a1.176 1.176 0 0 1-.111-.449h.764a.578.578 0 0 0 .255.384c.07.049.154.087.25.114.095.028.201.041.319.041.164 0 .301-.023.413-.07a.559.559 0 0 0 .255-.193.507.507 0 0 0 .085-.29.387.387 0 0 0-.153-.326c-.101-.08-.256-.144-.463-.193l-.618-.143a1.72 1.72 0 0 1-.539-.214 1 1 0 0 1-.351-.367 1.068 1.068 0 0 1-.123-.524c0-.244.063-.457.19-.639.127-.181.303-.322.527-.422.225-.1.484-.149.777-.149.304 0 .564.05.779.152.217.102.384.239.5.41.12.17.187.359.2.566h-.75a.56.56 0 0 0-.12-.258.624.624 0 0 0-.246-.181.923.923 0 0 0-.37-.068c-.216 0-.387.05-.512.152a.472.472 0 0 0-.184.384c0 .121.047.22.143.3a.97.97 0 0 0 .404.175l.621.143c.217.05.406.12.566.211.16.09.285.21.375.358.09.148.135.335.135.56 0 .247-.063.466-.188.656a1.216 1.216 0 0 1-.539.439c-.234.105-.52.158-.858.158-.254 0-.476-.03-.665-.09a1.404 1.404 0 0 1-.478-.252 1.13 1.13 0 0 1-.29-.375Z"/>
+                            </svg>
+<!--                            <h1 class="fs-5">Java</h1>-->
+                            <p class="text-muted">ООП,SOLID,SOAP</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-git text-success" viewBox="0 0 16 16">
+                                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                            </svg>
+                            <!--                            <h1 class="fs-5">HTML</h1>-->
+                            <p class="text-muted">ООП,SOLID,SOAP</p>
+                        </div>
+                        <div class="col">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="currentColor" class="bi bi-filetype-html  text-success" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5Zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662H6.515Zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999h.706Zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z"/>
+                            </svg>
+<!--                            <h1 class="fs-5">HTML</h1>-->
+                            <p class="text-muted">ООП,SOLID,SOAP</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="text-justify mt-5 mb-5">Work Experience</h1>
+                <div class="row">
+                    <div class="col"><img src="/static/infoBlog.jpg" alt="" style="width: 100%;border: 2px solid green"></div>
+                    <div class="col"><p1>Equal-width multi-row
+                        Create equal-width columns that span multiple rows by inserting a .w-100 where you want the columns to break to a new line. Make the breaks responsive by mixing the .w-100 with some responsive display utilities.
+                        col
+                    </p1></div>
+                </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 class="text-justify mt-5 mb-5" id="hobby">My travel</h1>
+            <div class="row">
+                <a class="col column_a1" href="#"  data-bs-toggle="modal" data-bs-target="#japanModal">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/travel/japan%20/1japan.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Japan</h1>
+                            <p class="text-muted">Everything about Japan. </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="japanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                    <div class="modal-dialog " style="max-width: 1000px">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" >Japan</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div id="japanCarouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/static/travel/japan%20/1japan.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/japan%20/2japan.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/japan%20/3japan.jpg" class="d-block w-100 d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/japan%20/4japan.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/japan%20/5japan.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/japan%20/6japan.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#japanCarouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="col column_a1" href="#" data-bs-toggle="modal" data-bs-target="#portugalModal">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/travel/portugal/4.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Portugal</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="portugalModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                    <div class="modal-dialog " style="max-width: 1000px">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" >Portugal</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div id="portugalCarouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/static/travel/portugal/1.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/portugal/2.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/portugal/3.jpg" class="d-block w-100 d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/portugal/4.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/portugal/5.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/portugal/6.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#portugalCarouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="col column_a1" href="#" data-bs-toggle="modal" data-bs-target="#spainModal" >
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/travel/spain/4.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Spain</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="spainModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog " style="max-width: 1000px">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5">Spain</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div id="spainCarouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/static/travel/spain/3.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/spain/2.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/spain/1.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/spain/4.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/spain/5.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/spain/6.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#spainCarouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="col column_a1" href="#" data-bs-toggle="modal" data-bs-target="#chinaModal">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/travel/china/1china.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">China</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="chinaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+                    <div class="modal-dialog " style="max-width: 1000px">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" >China</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div id="chinaCarouselExampleIndicators" class="carousel slide">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                            <button type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="/static/travel/china/3china.jpg" class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/china/4china.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/china/2china.jpg" class="d-block w-100 d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/china/1china.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/china/5china.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="/static/travel/china/6china.jpg" class="d-block w-100 d-block w-100"  alt="...">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#chinaCarouselExampleIndicators" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/27561-ktm-avtomobil-kaskader-yamaha_motor_kompani-shina-1920x1080.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Sweden</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/27561-ktm-avtomobil-kaskader-yamaha_motor_kompani-shina-1920x1080.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Israel</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/27561-ktm-avtomobil-kaskader-yamaha_motor_kompani-shina-1920x1080.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">France</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+                <a class="col column_a1" href="#">
+                    <div class="row">
+                        <div class="col">
+                            <img src="/static/27561-ktm-avtomobil-kaskader-yamaha_motor_kompani-shina-1920x1080.jpg" style="width: 100%" alt="">
+                            <h1 class="fs-5">Germany</h1>
+                            <p class="text-muted">Показываю как сгенерировать SSH ключ для работы на удаленном сервере. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="text-justify mt-5 mb-5">Read books</h1>
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;height: 35rem">
+                        <img class="card-img-top" src="/static/books/грокаем%20алгоритмы.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;height: 35rem">
+                        <img class="card-img-top" src="/static/books/segun.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;height: 35rem">
+                        <img class="card-img-top" src="/static/books/java.webp" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;height: 35rem">
+                        <img class="card-img-top" src="/static/books/two%20brother.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="container mt-4 mb-4 text-center text-success" >
+            <h1 class="text-justify" id="contact"></h1>
+            <div style="display: inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+                <h3 class="" id="mail">dirol@mail.ru</h3>
+            </div>
+
+        </div>
+
+        <div class="container mt-4 mb-4 text-center text-success">
+            <div style="display: inline-flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                <h3 class="text-center">+7(963)648-80-17</h3>
+            </div>
+        </div>
+
+        <div class="container mt-4 mb-4  text-center ">
+            <a href="https://www.linkedin.com/in/ivan-piatsiushyk-88b6131b7/" class="text-success m-2" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" >
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg></a>
+            <a href="https://github.com/IvanPiatsiushik" target="_blank" class="text-success m-2"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg></a>
+                                        <a href="" class="text-success m-2"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg></a>
+            <a href="https://www.youtube.com/channel/UC1-pdHmQE1LiOeg_nMAdESQ" class="text-success m-2" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+            </svg></a>
+            <a href="#mail" class="text-success m-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg>
+            </a>
+        </div>
+
+
+
+        <a class="d-flex justify-content-end" href="#begin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-up-square-fill  text-success " viewBox="0 0 16 16">
+                <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+        </a>
+
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
